@@ -18,11 +18,12 @@ public class View {
         System.out.println(message);
     }
 
-    public String showMenu(String nameDepartment) {
-        return "Department: " + nameDepartment + "\n" +
+    public String showMenu() {
+        return "Department BOYACA\n" +
                 "1. Add information (name of Town, name of Inhabitant, id of Inhabitant)" + "\n" +
                 "2. Print list of inhabitants of a town" + "\n" +
                 "3. Town with the most inhabitants" + "\n" +
+                "4. Town with the least inhabitants" + "\n" +
                 "0. Exit\n" +
                 "Input Option: ";
     }
